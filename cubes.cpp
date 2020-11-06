@@ -32,5 +32,5 @@ int main()
 	for (int i = 0; i < size; i++)
 	std::wcout << L"\u2502" << byFour(' ') << L"\u2502" << std::wstring(size - i - 1, ' ') << L"\u2571\n";
 
-	std::wcout << L"\u2588" << byFour(L'\u2500') << L"\u2588"; //commit1
+	std::wcout << L"\u2588" << byFour(L'\u2500') << L"\u2588"; //commit
 }
